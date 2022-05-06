@@ -1,5 +1,5 @@
 i made
 this 
-to practice branch
+to create conflict branch
 
-added from master branch 
+added from mester branch 
