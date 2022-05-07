@@ -24,6 +24,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
+<<<<<<< HEAD
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -43,3 +44,17 @@ import com.goldCoin.main.model.CustomerDocuments;
 import com.goldCoin.main.model.EmailSender;
 import com.goldCoin.main.model.Enquiry;
 
+=======
+
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.goldCoin.main.exception.EnquiryNotFoundException;
+import com.goldCoin.main.homeService.HomeService;
+import com.goldCoin.main.model.Customer;
+import org.springframework.web.bind.annotation.RequestBody;
+import com.goldCoin.main.model.CustomerDocuments;
+import com.goldCoin.main.model.EmailSender;
+import com.goldCoin.main.model.Enquiry;
+import com.goldCoin.main.homeService.CibilScoreGenerator;
+import com.goldCoin.main.model.SanctionedLoan;
+>>>>>>> f16b00c267efa8c083198e1304259b7ad9641976
